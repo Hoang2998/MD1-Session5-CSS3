@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .contrainer{
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .fadein{
+        border: 1px solid ;
+        background-color: silver;
+        color: aliceblue;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+    }
+    div:hover.fadein{
+        border: 1px solid ;
+        background-color: black;
+        color: aliceblue;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+
+    }
+    .Grow{
+        background-color: black;
+        color: aliceblue;
+        padding: 50px 70px;
+        border: 1px solid ;
+    }
+    div:hover.Grow{
+        background-color: black;
+        color: aliceblue;
+        padding: 80px;
+        border: 1px solid ;
+    }
+    .rotate{
+        background-color: black;
+        color: aliceblue;
+        padding: 50px;
+        border: 1px solid ;
+    }
+    div:hover.rotate{
+        background-color: black;
+        color: aliceblue;
+        padding: 50px;
+        border: 1px solid ;
+        transform: rotate(30deg);
+
+    }
+    .chane{
+        background-color: black;
+        color: aliceblue;
+        padding: 50px;
+        border: 1px solid ;
+    }
+    div:hover.chane{
+        background-color: black;
+        color: aliceblue;
+        padding: 50px;
+        border: 1px solid ;
+        border-radius: 50%;
+    }
+    .inset{
+        background-color: black;
+        color: aliceblue;
+        padding: 50px;
+        border: 1px solid black;
+    }
+    div:hover.inset{
+        background-color: black;
+        color: aliceblue;
+        padding: 40px;
+        border: 1px solid ;
+        border: 10px solid blue;
+    }
+</style>
+<body>
+    <div class="contrainer">
+        <div class="fadein">Fade in</div>
+    </div>
+    <div class="contrainer">
+        <div class="Grow">grow</div>
+    </div>
+    <div class="contrainer">
+        <div class="rotate">rotate</div>
+    </div>
+    <div class="contrainer">
+        <div class="chane">chane</div>
+    </div>
+    <div class="contrainer">
+        <div class="inset">inset</div>
+    </div>
+</body>
+
+</html>
